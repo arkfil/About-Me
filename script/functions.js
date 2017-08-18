@@ -20,12 +20,12 @@ $(document).ready(function(){
     var screenTopPos = $(this).scrollTop();
     // console.log(screenTopPos);
 
-      if(screen.width<=1200){
+      if(screen.width<=1200 && (window.innerHeight > window.innerWidth)){
           $('nav').css('transform','translate(0px,'+(((-1)*screenTopPos)/11)+'px)');
           $('#mouse-pic').css('transform','translate('+((screenTopPos)*2)+'px,'+(-1)*screenTopPos/2+'px)rotate('+(screenTopPos-40)+'deg)')
           $('#keyboard-pic').css('transform','translate('+(((-1)*screenTopPos)/2)+'px,0px)rotate('+(screenTopPos-40)+'deg)')
       }
-      if(screen.width<=1080){
+      if(screen.width<=1080 && (window.innerHeight > window.innerWidth)){
         $('div#my-picture').css('transform','translate(0px,'+(((-1)*screenTopPos)/7)+'px)rotate('+(5+screenTopPos/12)+'deg)');
       }
 
@@ -63,7 +63,7 @@ $(document).ready(function(){
         },300);
       };
 
-      if(screen.width>=3840){
+      if(screen.width>=2560){
 
           $(".siema").css('margin-left',70+'px')
       }else if (screen.width<=1800) {

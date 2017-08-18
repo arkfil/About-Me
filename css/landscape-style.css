@@ -1,0 +1,662 @@
+
+/*--- MEDIA QUERIES --*/
+/*@media screen and (min-width: 3835px) and (max-width: 4096px) {*/
+@media screen and (min-width: 3444px) and (max-width: 4096px) {
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  #inner-container{
+    top:0;
+    left: 13.39%;
+    background-repeat: repeat-y!important;
+    height: 2700px;
+  }
+  body{
+    margin-top: 0;
+  }
+  p#description{
+    font-size: 42px!important;
+    width: 1400px!important;
+  }
+  div#social-media a i{
+    font-size: 90px!important;
+  }
+  p#center-text, p#computer-text{
+    top:70px;
+    font-size: 42px!important;
+    width: 1200px!important;
+  }
+  ul#menu-list li a{
+    font-size: 42px!important;
+  }
+  hr{
+    width:2570px;
+    margin: auto;
+  }
+  h1.over-parallel-third-part{
+    margin-right: 77%!important;
+    font-size: 50px;
+  }
+  a#send-button{
+    font-size: 42px;
+    padding-left: 260px;
+    padding-right:260px;
+  }
+  input.message{
+    width:1100px;
+    font-size: 42px;
+  }
+  #message-content{
+    width: 1100px;
+    font-size: 42px;
+  }
+  p#copyright{
+    font-size: 42px;
+    padding-top: 29px;
+  }
+  h1.over-parallel-firs-part{
+    font-size: 310px;
+    margin-top: 55px!important;
+  }
+  h1.over-parallel-second-part{
+    margin-top: 50px!important;
+    font-size: 310px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 3444px) and (max-width: 3842px){
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  #inner-container{
+    top:0;
+    left: 420px;
+  }
+}
+@media screen and (min-width: 3441px) and (max-width: 3444px){
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  #inner-container{
+    top:0;
+    left: 222px;
+  }
+}
+
+
+
+@media screen and (min-width: 2550px) and (max-width: 2560px){
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  #inner-container{
+    top:0;
+    left: 0;
+  }
+
+  p#description{
+    font-size: 42px!important;
+    width: 1300px!important;
+  }
+  div#description-wrapper{
+    width: 55%;
+  }
+  div#profile-wrapper{
+    width: 45%;
+  }
+  div#social-media a i{
+    font-size: 80px!important;
+  }
+  p#center-text, p#computer-text{
+    top:50px;
+    left: 20px;
+    font-size: 42px!important;
+    width: 1150px!important;
+  }
+  ul#menu-list li a{
+    font-size: 42px!important;
+  }
+  nav{
+    margin-right: 440px!important;
+  }
+  div#dropdown ul#menu-list{
+    margin-top: 25px!important;
+  }
+  div#center-picture{
+    width: 52%;
+  }
+  div#experience-desription{
+    width: 48%;
+  }
+  h1.over-parallel-firs-part{
+    font-size: 310px;
+    margin-top: 55px!important;
+  }
+  h1.over-parallel-second-part{
+    margin-top: 50px!important;
+    font-size: 310px;
+    width: 100%;
+    word-spacing: 50px!important;
+  }
+  div#computer-picture{
+    width: 52%;
+  }
+  div#education-decription{
+    width: 48%;
+  }
+  hr{
+    width:2350px;
+    margin: auto;
+  }
+  h1.over-parallel-third-part{
+    margin-right: 81%!important;
+    font-size: 50px;
+  }
+  a#send-button{
+    font-size: 42px;
+    padding-left: 260px;
+    padding-right:260px;
+  }
+  input.message{
+    width:1100px;
+    font-size: 38px;
+  }
+  #message-content{
+    width: 1100px;
+    font-size: 38px;
+  }
+  p#copyright{
+    font-size: 42px;
+    padding-top: 29px;
+  }
+}
+
+@media screen and (min-width: 1800px)  and (max-width: 1920px) {
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  p#description{
+    font-size: 32px!important;
+    width: 900px!important;
+  }
+  p#center-text, p#computer-text{
+    top:72px;
+    left: 23px;
+    font-size: 32px!important;
+    width: 800px!important;
+    word-wrap: break-word;
+  }
+}
+@media screen and (min-width: 1800px) and (max-width: 1850px) {
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  p#description{
+    padding-left: 70px;
+  }
+  h1.over-parallel-second-part{
+    width: 60%;
+  }
+  input.message{
+    width: 800px;
+  }
+  #message-content{
+    width: 800px;
+  }
+  h1.over-parallel-third-part{
+    margin: 40px 78% 0 0;
+  }
+  div#profile-wrapper{
+    width: 40%;
+  }
+  div#description-wrapper{
+    width: 60%;
+  }
+  div#social-media{
+    width: 35%
+  }
+  div#social-media a{
+    margin-left: 250px!important;
+  }
+  div#my-picture{
+    width: 65%;
+  }
+  div#my-picture img{
+    transform: rotate(0deg);
+    float: right;
+  }
+}
+@media screen and (max-width: 1800px) {
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  a#send-button{
+    padding:40px 130px;
+    margin-top: 0px;
+  }
+  p#center-text, p#computer-text{
+    width: 770px!important;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1700px) {
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  a#send-button{
+    margin-top:14px;
+    padding:30px 130px;
+  }
+  p#center-text, p#computer-text{
+    width: 700px!important;
+    font-size: 33px!important;
+    top:50px!important;
+    left:20px!important;
+  }
+  div#social-media a{
+    margin-left: 200px!important;
+  }
+  div#my-picture img{
+    transform: rotate(0deg);
+
+    float: left;
+  }
+  div#social-media{
+    width: 51%;
+  }
+  div#my-picture{
+    width: 49%;
+  }
+  input.message{
+    width: 770px;
+  }
+  #message-content{
+    width: 770px;
+  }
+  nav div ul li a{
+    font-size: 30px!important;
+  }
+
+}
+@media screen and (max-width: 1655px) {
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  #my-picture{
+    width: 50%;
+  }
+  #social-media{
+    width: 20px;
+  }
+  #social-media a{
+    margin-left: 220px;
+  }
+  #social-media i{
+    padding-right: 0px;
+  }
+  h1.over-parallel-third-part{
+    margin: 40px 75% 0 0;
+  }
+  hr{
+    width: 98%!important;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1600px) {
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  input.message{
+    width: 700px;
+  }
+  #message-content{
+    width: 700px;
+  }
+
+  div#education-decription p#computer-text, p#center-text{
+    left:22px;
+  }
+  h1.over-parallel-second-part{
+    width: 65%;
+  }
+
+}
+@media screen and (max-width: 1550px) {
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  div#education-decription p#computer-text, p#center-text{
+    width:650px!important;
+    top:30px!important;
+  }
+}
+@media screen and (max-width: 1500px) {
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  div#education-decription p#computer-text, p#center-text{
+    width:620px!important;
+    font-size: 30px!important;
+    top:64px!important;
+    left:25px!important;
+  }
+  div#icon-set{
+    margin-top: 40px;
+  }
+  #top-header nav{
+    margin: 0 110px 0;
+  }
+  #top-header nav div#dropdown ul li a{
+    font-size: 21px;
+  }
+  #top-header nav div ul li{
+    padding:24px 19px 24px 19px;
+  }
+  h1.over-parallel-second-part{
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  div#education-decription p#computer-text, p#center-text{
+    width:600px!important;
+    font-size: 28px!important;
+    top:75px!important;
+  }
+  p#description{
+    font-size: 28px!important;
+  }
+  div#profile-wrapper{
+    width: 45%;
+  }
+  div#description-wrapper{
+    width: 55%;
+  }
+  input.message{
+    width: 600px;
+  }
+  #message-content{
+    width: 600px;
+  }
+  div#social-media{
+    width: 40%;
+  }
+  div#my-picture{
+    width: 60%;
+  }
+  div#profile-wrapper div#social-media a{
+    margin-left: 100px!important;
+  }
+  h1.over-parallel-firs-part, h1.over-parallel-second-part{
+    font-size: 170px;
+    word-spacing: 90px;
+
+  }
+
+  h1.over-parallel-third-part{
+    margin: 40px 75% 0 0;
+  }
+
+  h1.over-parallel-third-part{
+    margin: 40px 70% 0 0;
+  }
+}
+@media screen and (max-width: 1366px) {
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  div#education-decription p#computer-text, p#center-text{
+    width:570px!important;
+    font-size: 29px!important;
+    top:60px!important;
+    left:47px;
+  }
+  div#description-wrapper p#description{
+    font-size: 28px!important;
+    width: 650px!important;
+    margin-right: 60px;
+    top:45px;
+    float: right;
+  }
+}
+@media screen and (max-width: 1300px) {
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  #keyboard-pic{
+    top:80px;
+  }
+  div#top-header nav{
+    height: 70px;
+    width: 600px;
+    margin-right: 170px;
+  }
+  div#top-header nav div#dropdown ul#menu-list li a{
+    letter-spacing: normal;
+    font-size: 21px;
+  }
+  div#top-header nav div#dropdown ul#menu-list li {
+    padding: 24px 40px 24px 10px;
+  }
+  div#top-header nav div#dropdown ul#menu-list{
+    margin-top:22px;
+  }
+  header{
+    height:70px;
+  }
+  div#education-decription p#computer-text, p#center-text{
+    width:530px!important;
+    font-size: 28px!important;
+    top:45px!important;
+    left:47px;
+  }
+  div#description-wrapper p#description{
+    font-size: 28px!important;
+    width: 650px!important;
+    margin-right: 30px;
+    float: right;
+  }
+}
+@media screen and (max-width: 1280px) {
+  nav{
+    width: 689px!important;
+  }
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  div#center-picture{
+    width: 51%!important;
+  }
+  div#experience-desription{
+      width:49%!important;
+  }
+  div#computer-picture{
+    width: 51%!important;
+  }
+  div#education-decription{
+      width:49%!important;
+  }
+  input.message{
+    height: 70px;
+    width: 520px;
+  }
+  #message-content{
+    width: 520px!important;
+    height: 250px;
+  }
+
+  a#send-button{
+
+  }
+  div#inner-contact-div-first{
+    height: 280px;
+  }
+  div#inner-contact-div-second{
+    height: 280px;
+  }
+  div#inner-contact-div{
+    height: 450px;
+  }
+  div#outer-contact-div{
+    height: 450px;
+  }
+  div#contact-wrapper{
+    height: 450px;
+  }
+  hr{
+    width: 94%!important;
+  }
+  h1.over-parallel-second-part{
+    width: 100%;
+    padding-top:40px!important;
+  }
+}
+@media screen and (max-width: 1152px) {
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  div#description-wrapper p#description{
+    font-size: 25px!important;
+    width: 530px!important;
+    margin-top:40px!important;
+  }
+  div#education-decription p#computer-text, p#center-text{
+    width:530px!important;
+    font-size: 28px!important;
+    top:45px!important;
+    left:47px;
+  }
+  div#education-decription p#computer-text, p#center-text{
+    width:510px!important;
+    font-size: 28px!important;
+    top:30px!important;
+    left:47px;
+  }
+  h1.over-parallel-second-part{
+    width: 100%;
+    margin-top:35px;
+    padding-top: 0px!important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  div#keyboard-pic{
+    top:20px;
+    right: 190px;
+    height: 2%;
+    left: auto;
+    z-index: 2;
+    transform: rotate(-20deg);
+  }
+  #mouse-pic{
+    height: 2%;
+    top: 1px;
+    right: 49px;
+    transform: rotate(-20deg);
+
+  }
+  nav{
+    transform: skew(0deg)!important;
+    width: 100%!important;
+    margin: auto!important;
+  }
+  ul#menu-list{
+    transform: skew(0deg)!important;
+    margin-left: 40px!important;
+  }
+
+  div#description-wrapper p#description{
+    font-size: 20px!important;
+    width: 600px!important;
+    margin-top:55px!important;
+  }
+  div#my-picture img{
+    transform: rotate(0deg);
+    width: 219px!important;
+  }
+  div#profile-wrapper div#social-media a{
+    margin-left: 30px!important;
+    width: 70px!important;
+    height: 60px;
+  }
+  div#profile-wrapper div#social-media a i{
+    padding: 60px 0px!important;
+  }
+  div#profile-wrapper{
+    width: 35%;
+  }
+  div#description-wrapper{
+    width: 65%;
+  }
+  section#my-section{
+    height: 350px;
+  }
+  section#experience,div#center-picture,div#experience-desription, div#coffee-main,
+  section#education-section,div#education-decription,div#computer-picture,div#computer-main{
+    height: 350px!important;
+  }
+  h1.over-parallel-firs-part{
+    margin-top:80px!important;
+  }
+  h1.over-parallel-second-part{
+    margin-top:-40px!important;
+    width: auto;
+    word-spacing:normal;
+  }
+  div#education-decription p#computer-text, p#center-text, p#center-text{
+    font-size: 22px!important;
+    width: 440px!important;
+  }
+
+  p#center-text{
+    top:15px!important;
+    left: 15px!important;
+    font-size: 23px!important;
+    width: 460px!important;
+  }
+  div#icon-set{
+    margin-top: 40px!important;
+  }
+  div#contact-wrapper,div#inner-contact-div,div#outer-contact-div,div#inner-contact-div-first,div#inner-contact-div-second{
+    height: 400px!important;
+  }
+
+  div#inner-contact-div-first,div#inner-contact-div-second{
+    height: 250px!important;
+  }
+  input.message{
+    height: 60px;
+    width: 450px;
+  }
+  #message-content{
+    width: 450px!important;
+    height: 220px!important;
+  }
+  a#send-button{
+    padding: 20px 110px;
+  }
+}
+@media screen and (max-width: 980px) {
+  div#my-picture img{
+    transform: rotate(0deg);
+  }
+  div#my-section-wrapper div#description-wrapper p#description{
+    font-size: 20px!important;
+    width: 510px!important;
+    margin-top:45px!important;
+  }
+  div#education-decription p#computer-text, p#center-text, p#center-text{
+    font-size: 19px!important;
+    width: 430px!important;
+  }
+  input.message{
+    height: 60px!important;
+  }
+  #message-content{
+    width: 420px!important;
+  }
+}
